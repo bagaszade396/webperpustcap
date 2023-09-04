@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form pendaftaran</title>
+</head>
+<body>
+    <center>
+        <form>
+            <div class="container">
+                <h2>Formulir Pendaftaran Anggota Perpustakaan CPA</h2>
+                <table border="1" width="30%">
+                    <tr>
+                        <td>Nama Siswa</td>
+                        <td><b>:</b></td>
+                        <td><input type="text" name="masukan nama lu"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td><b>:</b></td>
+                        <td>
+                            <input type="radio" name="Kelamin" value="Laki-laki">Laki-laki
+                            <input type="radio" name="Kelamin" value="Perempuan">Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pilih Kelas</td>
+                        <td><b>:</b></td>
+                        <td>
+                            <select name="Kelas" id="">
+                            <option value="">XI TKJ 1</option>
+                            <option value="">XI TKJ 2</option>
+                            <option value="">XI TKJ 3</option>
+                            <option value="">XI TKJ 4</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td><b>:</b></td>
+                        <td><input type="date" name="masukan tanggal lahir lu"></td>
+                    </tr>
+                    <tr>
+                        <td>Hobby</td>
+                        <td><b>:</b></td>
+                        <td>
+                            <input type="checkbox" name="Hobby" value="Membaca">Membaca<br>
+                            <input type="checkbox" name="Hobby" value="Menulis">Menulis<br>
+                            <input type="checkbox" name="Hobby" value="bermain game">bermain game<br>
+                            <input type="checkbox" name="Hobby" value="nonton anime">nonton anime<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td><b>:</b></td>
+                        <td><textarea name="komentar" cols="70" rows="10"></textarea></td>
+                    </tr>
+                    <tr align="center">
+                         <td colspan="3">
+                            <input type="submit" name="kirim">
+                            <input type="reset" name="ulangi">
+                         </td>
+                    </tr>
+                    
+
+                    
+
+                </table>
+            </div>
+        </form>
+    </center>
+</body>
+</html>
